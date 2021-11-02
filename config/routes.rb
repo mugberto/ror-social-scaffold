@@ -13,7 +13,10 @@ Rails.application.routes.draw do
     resources :likes, only: [:create, :destroy]
   end
   namespace :api do
-    resources :posts, only: [:index]
+    resources :posts, only: [:index] do 
+      resources :comments, only: [:index]
+    end
+
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
