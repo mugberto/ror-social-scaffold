@@ -39,6 +39,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'devise'
 
+gem 'jwt'
+
 group :development, :test do
   # install rspec rails
   gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
