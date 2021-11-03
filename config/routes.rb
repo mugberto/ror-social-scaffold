@@ -13,7 +13,9 @@ Rails.application.routes.draw do
     resources :likes, only: [:create, :destroy]
   end
   namespace :api do
-    resources :posts, only: [:index] do 
+    post :auth, to: 
+    "authentication#create"
+    resources :posts, only: [:index, :create] do 
       resources :comments, only: [:index, :create]
     end
 
