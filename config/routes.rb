@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   end
   namespace :api do
     post 'sign_in', to: "authentication#create"
+    post 'sign_up', to: "users#create"
     resources :posts, only: [:index, :create] do 
       resources :comments, only: [:index, :create]
     end
