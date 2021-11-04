@@ -11,6 +11,6 @@ class Api::AuthenticationController < Api::ApiController
   end
   def destroy
     user = User.find_by(email: params[:email])
-    render json: { auth_token: JsonWebToken.encode(sub: user.id) }
+    auth_token: JsonWebToken.encode(sub: user.id) 
   end
 end

@@ -8,13 +8,19 @@ View the demo [here](https://fierce-ocean-92729.herokuapp.com/)
 
 ## Built With
 
-- Ruby v2.7.0
+- Ruby v2.7.1
 - Ruby on Rails v6.0.3
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+| Column 1       | Column 2     
+| :------------- | :----------: 
+|  Cell Contents | More Stuff   
+| You Can Also   | Put Pipes In 
+
 
 ### Prerequisites
 
@@ -62,6 +68,17 @@ Open `http://localhost:3000/` in your browser.
 - Github: [@mugberto](https://github.com/mugberto)
 - Twitter: [@mugberto](https://twitter.com/mugberto)
 - Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
+
+👤 **Peter Mbuthia**
+
+- GitHub: [@Blakbox23](https://github.com/blakbox23)
+- Twitter: [@blakbox23](https://twitter.com/blakbox23)
+- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
+
+👤 **Elyor Doniyorov**
+
+- Github: [@elyor-doniyorov](https://github.com/elyor-doniyorov)
+- LinkedIn: [@elyor-doniyorov](www.linkedin.com/in/elyor-doniyorov)
 
 ## 🤝 Contributing
 
