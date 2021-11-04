@@ -28,7 +28,6 @@ The API endpoints return and receive JSON. The user must first sign-in to get th
 | :------------- | :----------: 
 |  POST          | /api/sign_in  
 |  POST          | /api/sign_up
-|  DELETE        | /api/sign_out
 |  GET           | /api/posts/:post_id/comments
 |  POST          | /api/posts/:post_id/comments
 |  GET           | /api/posts
