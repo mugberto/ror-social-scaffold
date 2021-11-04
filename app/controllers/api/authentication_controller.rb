@@ -9,8 +9,9 @@ class Api::AuthenticationController < Api::ApiController
       render json: { errors: ['Invalid email or password'] }
     end
   end
+
   def destroy
     user = User.find_by(email: params[:email])
-    auth_token: JsonWebToken.encode(sub: user.id) 
+    JsonWebToken.encode(sub: user.id)
   end
 end

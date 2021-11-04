@@ -9,7 +9,7 @@ class Api::CommentsController < Api::ApiController
     @comment = @post.comments.build(user_id: current_user.id, content: params[:content])
     if @comment.save
       render plain: 'Created', status: :created
-    else 
+    else
       render plain: 'Not created', status: :no_content
     end
   end
