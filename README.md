@@ -1,6 +1,7 @@
 # Scaffold for social media app with Ruby on Rails
 
-> This repo includes code for basic social media app built with rails. The app allows users to create account, see other users, invite them to friendship, and accept or reject thier friendship requests. A user also can create posts, publish them on their timeline, and see his friends' posts
+> This repo includes code for basic social media app built with rails. The app allows users to create account, see other users, invite them to friendship, and accept or reject thier friendship requests. A user also can create posts, publish them on their timeline, and see his friends' posts. 
+Also in this project, you can find some API endpoints of the Blog app. This will allow your app to be used in different ways, rather than just through your site - for example, a mobile app or a CLI application.
 
 ## Live demo
 
@@ -12,14 +13,26 @@ View the demo [here](https://fierce-ocean-92729.herokuapp.com/)
 - Ruby on Rails v6.0.3
 
 
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-| Column 1       | Column 2     
+## How to use API endpoints
+
+The API endpoints return and receive JSON. The user must first sign-in to get the authentication key 
+
+## Use routes with Api endpoints
+
+|     CRUD       | API endpoints     
 | :------------- | :----------: 
-|  Cell Contents | More Stuff   
-| You Can Also   | Put Pipes In 
+|  POST          | /api/sign_in  
+|  POST          | /api/sign_up
+|  DELETE        | /api/sign_out
+|  GET           | /api/posts/:post_id/comments
+|  POST          | /api/posts/:post_id/comments
+|  GET           | /api/posts
+|  POST          | /api/posts
 
 
 ### Prerequisites
